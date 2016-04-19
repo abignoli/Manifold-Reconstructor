@@ -30,9 +30,8 @@
 //*************************************************************************************************/
 int main(int argc, char **argv) {
 //  OpenMvgParser op("/home/andrea/Scrivania/Datasets/Middelbury/templeRing/openmvgMatch/out.json");
-  //OpenMvgParser op("data/0095/0095.json");
-  OpenMvgParser op(argv[1]);
-  
+  OpenMvgParser op("data/0095/0095.json");
+
   op.parse();
   //utilities::saveVisibilityPly(op.getSfmData());
 
